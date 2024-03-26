@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/ad.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Php Developer</h1>
+                <h1>Hi, I'm <span>Aditya Kumar Singh</span> </h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="about-me">
+                <h1 class="sub-title">About Me</h1>
+                <p>Greetings! I'm thrilled to welcome you to my Portfolio. I'm passionate software developer with
+                    expertise in
+                    PHP development. I love building interactive and user-friendly web applications using the latest
+                    technologies such
+                    as HTML, CSS, JavaScript, and PHP. I thrive in turning complex problems into user-friendly
+                    experiences. What truly drives me is the opportunity to continuously learn and adapt in
+                    an ever-changing technological landscape. The thrill of mastering new languages, frameworks, and
+                    tools fuels my desire
+                    to stay at the forefront of web development. In my development process, I merge creativity with
+                    functionality. From front-end
+                    languages such as HTML, CSS, and JavaScript to powerful frameworks like React and Angular, I enjoy
+                    bringing designs to life. On the backend,
+                    I'm well-versed in databases like MySQL and MongoDB and have a strong command over server-side
+                    languages such as PHP and Node.js.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="skill" class="container flaexDisplay">
+        <div class="heading">
+            <h1>Skills</h1>
+        </div>
+        <div class="skills">
+            <div class="skill flexDisplay">
+                <h1>HTML</h1>
+
+                <div class="progressBar"></div>
+                <h1 class="percentage">90%</h1>
+            </div>
+            <div class="skill flexDisplay">
+                <h1>CSS</h1>
+
+                <div class="progressBar"></div>
+                <h1 class="percentage">80%</h1>
+            </div>
+            <div class="skill flexDisplay">
+                <h1>Bootstrap</h1>
+
+                <div class="progressBar"></div>
+                <h1 class="percentage">70%</h1>
+            </div>
+            <div class="skill flexDisplay">
+                <h1>JavaScript</h1>
+
+                <div class="progressBar"></div>
+                <h1 class="percentage">70%</h1>
+            </div>
+            <div class="skill flexDisplay">
+                <h1>PHP</h1>
+                <div class="progressBar"></div>
+                <h1 class="percentage">80%</h1>
+            </div>
+            <div class="skill flexDisplay">
+                <h1>GitHub</h1>
+                <div class="progressBar"></div>
+                <h1 class="percentage">70%</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="work">
+                    <img src="images/Weather app.png">
+                    <div class="layer">
+
+                        <a href="https://aditya95093.github.io/Weather-App/" class="button">Visit</a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Starbucks Coffee.png">
+                    <div class="layer">
+
+                        <a href="https://shorturl.at/ozU79" class="button">Visit</a>
+
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/calculator.png">
+                    <div class="layer">
+
+                        <a href="https://aditya95093.github.io/Calculator/" class="button">Visit</a>
+
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> contact@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100023089424571&mibextid=ZbWKwL"
+                            title="Facebook Profile"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://x.com/Aditya95093?t=hNHClawxPNlO-lJN9FKymg&s=08" title="Twitter Profile"><i
+                                class='bx bxl-twitter'></i></a>
+                        <a href="https://instagram.com/adityasingh45718?igshid=MzMyNGUyNmU2YQ=="
+                            title="Instagram Profile"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://www.linkedin.com/in/aditya-singh-299919267" title="LinkedIn Profile"><i
+                                class='bx bxl-linkedin'></i></a>
+                    </div>
+                    <a href="AK RESUME.pdf" download class="btn btn2">Download CV</a>
+
+
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&#169; Copyright By Aditya Singh </p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
